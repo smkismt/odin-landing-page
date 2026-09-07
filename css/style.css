@@ -46,3 +46,48 @@ ul {
   font-size: 18px;
   color: #e5e7eb;
 }
+
+.container {
+  padding: 100px 32px;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  background-color: #1f2937;
+}
+
+.hero__content {
+  max-width: 450px;
+}
+
+.hero__title {
+  margin: 0;
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.hero__lead {
+  margin: 0 0 16px 0;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.button {
+  border-radius: 10px;
+  border: 0;
+  padding: 10px 40px;
+}
+
+.button--primary {
+  color: #f9faf8;
+  background-color: #3882f6;
+}
+
+.hero__image {
+  width: 500px;
+  height: 200px;
+}

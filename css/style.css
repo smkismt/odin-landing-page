@@ -96,6 +96,7 @@ ul {
 }
 
 .hero__image {
-  width: 500px;
-  height: 200px;
+  width: 450px;
+  aspect-ratio: 16/9;
+  object-fit: cover;
 }

@@ -14,24 +14,36 @@
   </head>
   <body>
     <header class="header">
-      <a class="header__logo" href="#">Header Logo</a>
-      <nav class="navigation">
-        <ul class="navigation__list">
-          <li><a class="navigation__link" href="#">header link one</a></li>
-          <li><a class="navigation__link" href="#">header link two</a></li>
-          <li><a class="navigation__link" href="#">header link three</a></li>
-        </ul>
-      </nav>
+      <div class="container">
+        <div class="header__inner">
+          <a class="header__logo" href="#">Header Logo</a>
+          <nav class="navigation">
+            <ul class="navigation__list">
+              <li><a class="navigation__link" href="#">header link one</a></li>
+              <li><a class="navigation__link" href="#">header link two</a></li>
+              <li>
+                <a class="navigation__link" href="#">header link three</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
     </header>
     <main>
-      <section class="container hero">
-        <div class="hero__content">
-          <h1 class="hero__title">This website is awesome</h1>
-          <p class="hero__lead">
-            This website has some subtext that goes here under the main title.
-            It's a smaller font and the colors is lower contrast
-          </p>
-          <button class="button button--primary" type="submit">Sign up</button>
+      <section class="hero">
+        <div class="container">
+          <div class="hero__inner">
+            <div class="hero__content">
+              <h1 class="hero__title">This website is awesome</h1>
+              <p class="hero__lead">
+                This website has some subtext that goes here under the main
+                title. It's a smaller font and the colors is lower contrast
+              </p>
+              <button class="button button--primary" type="submit">
+                Sign up
+              </button>
+            </div>
+          </div>
         </div>
         <img
           class="hero__image"

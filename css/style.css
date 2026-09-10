@@ -25,9 +25,18 @@ ul {
 
 .header {
   background-color: #1f2937;
+}
+
+.container {
+  max-width: 1200px;
+  margin-inline: auto;
+}
+
+.header__inner {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  padding: 16px 0;
 }
 
 .header__logo {
@@ -47,16 +56,15 @@ ul {
   color: #e5e7eb;
 }
 
-.container {
-  padding: 100px 32px;
+.hero {
+  background-color: #1f2937;
 }
 
-.hero {
+.hero__inner {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 32px;
-  background-color: #1f2937;
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 100px 0;
 }
 
 .hero__content {

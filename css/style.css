@@ -100,3 +100,34 @@ ul {
   aspect-ratio: 16/9;
   object-fit: cover;
 }
+
+.information__inner {
+  text-align: center;
+  padding: 50px 0 100px;
+}
+
+.information__title {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+.information__content {
+  display: flex;
+  justify-content: center;
+  gap: 36px;
+}
+
+.information__card {
+  max-width: 150px;
+}
+
+.information__image {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-width: 5px;
+  border-style: solid;
+  border-color: cornflowerblue;
+  border-radius: 10px;
+}

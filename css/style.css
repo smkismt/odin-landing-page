@@ -87,7 +87,8 @@ ul {
 .button {
   border-radius: 10px;
   border: 0;
-  padding: 10px 40px;
+  padding: 10px 30px;
+  font-weight: 700;
 }
 
 .button--primary {

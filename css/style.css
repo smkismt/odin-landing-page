@@ -23,7 +23,8 @@ ul {
   list-style-type: none;
 }
 
-.header {
+.header,
+.footer {
   background-color: #1f2937;
 }
 
@@ -191,4 +192,14 @@ ul {
   border-width: 2px;
   border-style: solid;
   border-color: #fff;
+}
+
+.footer__inner {
+  padding: 32px 0;
+  text-align: center;
+}
+
+.footer__text {
+  color: #fff;
+  margin: 0;
 }
